@@ -1,0 +1,6 @@
+C:\Users\aizar\source\repos\MoloLE2\MoloBlogDB\bin\Debug\MoloBlogDB.dacpac
+C:\Users\aizar\source\repos\MoloLE2\MoloBlogDB\bin\Debug\MoloBlogDB.dll
+C:\Users\aizar\source\repos\MoloLE2\MoloBlogDB\bin\Debug\MoloBlogDB.pdb
+C:\Users\aizar\source\repos\MoloLE2\MoloBlogDB\obj\Debug\MoloBlogDB.sqlproj.AssemblyReference.cache
+C:\Users\aizar\source\repos\MoloLE2\MoloBlogDB\obj\Debug\MoloBlogDB.dll
+C:\Users\aizar\source\repos\MoloLE2\MoloBlogDB\obj\Debug\MoloBlogDB.pdb
