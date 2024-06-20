@@ -74,6 +74,7 @@
   <ItemGroup>
     <Compile Include="Database\ISqlDataAccess.cs" />
     <Compile Include="Database\SqlDataAccess.cs" />
+    <Compile Include="Data\ISqlData.cs" />
     <Compile Include="Data\SqlData.cs" />
     <Compile Include="Models\ListPostModel.cs" />
     <Compile Include="Models\PostModel.cs" />

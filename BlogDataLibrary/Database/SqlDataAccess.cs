@@ -13,18 +13,19 @@ namespace BlogDataLibrary.Database
     public class SqlDataAccess : ISqlDataAccess
     {
         private IConfiguration _config;
-        public SqlDataAccess(IConfiguration config)
-        {
-            _config = config;
-        }
+            public SqlDataAccess(IConfiguration config)
+            {
+                _config = config;
+            }
 
         public List<T> LoadData<T, U>(string sqlStatement,
                                             U parameters,
                                             string connectionStringName,
                                             bool isStoredProcedure = false)
         {
-            string connectionString = _config.GetConnectionString(connectionStringName);
             CommandType commandType = CommandType.Text;
+            string connectionString = _config.GetConnectionString(connectionStringName);
+            
 
             if (isStoredProcedure)
             {
@@ -58,7 +59,4 @@ namespace BlogDataLibrary.Database
             }
         }
     }
-}
-
-    
 }
